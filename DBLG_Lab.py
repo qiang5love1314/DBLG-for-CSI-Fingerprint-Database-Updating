@@ -52,14 +52,14 @@ def getOriginalCSI():
 
 def getXlabel():
     """
-    生成X坐标标签列表（从1到16的字符串形式）。
+    生成X坐标标签列表（从1到21的字符串形式）。
     """
     return [str(i + 1) for i in range(21)]
 
 
 def getYlabel():
     """
-    生成Y坐标标签列表（从01到11的字符串形式，个位数补零）。
+    生成Y坐标标签列表（从01到23的字符串形式，个位数补零）。
     """
     return [f"{j + 1:02d}" if j < 9 else str(j + 1) for j in range(23)]
 
@@ -148,7 +148,7 @@ def find_close_fast(arr, errorBand):
 
 def findPossiblePath(stateFile):
     """
-    从A3C模型的状态文件中加载所有可能的路径，并筛选出包含特定起点([1, 1])和终点([16, 11])的路径。
+    从A3C模型的状态文件中加载所有可能的路径，并筛选出包含特定起点([1, 1])和终点([21, 23])的路径。
     """
     possiblePath = []
     stateLabel = []
@@ -331,4 +331,4 @@ if __name__ == '__main__':
     print(f"预测时间: {prediction_time_elapsed:.2f} s")
 
     # 保存测试误差到.mat文件。
-    saveTestErrorMat(prediction, testlabel1, 'Predict-Meet-Error')
+    saveTestErrorMat(prediction, testlabel1, 'Predict-Lab-Error')
