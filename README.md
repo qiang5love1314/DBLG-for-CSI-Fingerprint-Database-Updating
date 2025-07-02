@@ -38,19 +38,16 @@ To use the dataset, look at [CSI-dataset-for-indoor-localization](https://github
 
 ## Citation
 
-[DBLG](https://ieeexplore.ieee.org/document/11036427)
+[Paper link](https://ieeexplore.ieee.org/document/11036427)
 
 If you use this work for your research, you may want to cite:
 
 ```latex
-@INPROCEEDINGS{11036427,
+@INPROCEEDINGS{zhang2024DBLG,
   author={Zhang, Mingbo and Lu, Lingyun and Zhu, Xiaoqiang and Li, Lingkun and Gao, Ruipeng},
   booktitle={2024 20th International Conference on Mobility, Sensing and Networking (MSN)}, 
   title={DBLG: An Innovative Deep-Broad Learning and GAN Framework for CSI Fingerprint Database Refinement}, 
   year={2024},
-  volume={},
-  number={},
   pages={114-121},
-  keywords={Location awareness;Learning systems;6G mobile communication;Accuracy;Databases;Fingerprint recognition;Generative adversarial networks;Feature extraction;Robustness;Radiofrequency identification;CSI;Deep Learning;Broad Learning System;GAN},
   doi={10.1109/MSN63567.2024.00026}}
 ```
