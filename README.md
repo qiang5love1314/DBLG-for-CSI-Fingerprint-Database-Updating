@@ -40,6 +40,8 @@ To use the dataset, look at [CSI-dataset-for-indoor-localization](https://github
 
 [DBLG](https://ieeexplore.ieee.org/document/11036427)
 
+If you use this work for your research, you may want to cite:
+
 ```latex
 @INPROCEEDINGS{11036427,
   author={Zhang, Mingbo and Lu, Lingyun and Zhu, Xiaoqiang and Li, Lingkun and Gao, Ruipeng},
