@@ -10,15 +10,15 @@ With the rapid advancement of Integrated Sensing and Communication (ISAC) in 6G,
 
 ## Our Contribution
 
-In this repository, we present DBLG — a novel fingerprint database update framework that integrates a Deep-Broad Learning System (DeepBLS) with Generative Adversarial Networks (GAN) to enable fine-grained CSI fingerprint refinement.
+In this repository, we present DBLG — a novel fingerprint database update framework that integrates a Deep-Broad Learning System (Deep-BLS) with Generative Adversarial Networks (GAN) to enable fine-grained CSI fingerprint refinement.
 
 The DBLG framework includes three key stages:
 
 1. **Initial Database Construction**  
-   A DeepBLS model is used to build a stable global CSI fingerprint database from the raw data.
+   A Deep-BLS model is used to build a stable global CSI fingerprint database from the raw data.
 
 2. **GAN-based Refinement**  
-   A GAN is trained to extract features, generate missing data, and update the global database with enhanced confidence.
+   Utilize GAN to extract features from the raw data, predict and update the global CSI fingerprint database.
 
 3. **Final Database Generation**  
    The system incorporates confidence coefficients to construct a high-precision fingerprint database.
